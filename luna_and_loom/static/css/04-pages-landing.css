@@ -1,0 +1,30 @@
+/* --- Section Layout --- */
+
+.page-section {
+  padding-top: var(--space-3xl);
+  padding-bottom: var(--space-3xl);
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* For video background */
+}
+
+.hero-section h1 {
+  font-size: 3.5rem; 
+  max-width: 20ch; 
+  margin-bottom: var(--space-lg);
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  max-width: 45ch;
+  margin-bottom: var(--space-2xl);
+}
