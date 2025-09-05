@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luna & Loom | Crafted in small batches, worn for years.</title>
+    <meta name="description" content="Luna & Loom’s seasonal collection blends natural fibers and quiet silhouettes.">
+
+    <link rel="stylesheet" href="{% static 'css/00-tokens.css' %}">
+    <link rel="stylesheet" href="{% static 'css/01-base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/02-utils.css' %}">
+    <link rel="stylesheet" href="{% static 'css/03-components.css' %}">
+    <link rel="stylesheet" href="{% static 'css/04-pages-landing.css' %}">
+
+    <script src="{% static 'js/observe.js' %}" defer></script>
+    <script src="{% static 'js/video.js' %}" defer></script>
+    <script src="{% static 'js/gallery.js' %}" defer></script>
+    <script src="{% static 'js/nav.js' %}" defer></script>
+    <script src="{% static 'js/analytics.js' %}" defer></script>
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <section id="hero">
+            <h1>Crafted in small batches, worn for years.</h1>
+            <p>Luna & Loom’s seasonal collection blends natural fibers and quiet silhouettes.</p>
+            <a href="#shop">Shop the collection</a>
+        </section>
+        <section id="lookbook"><h2>A few looks, in motion.</h2></section>
+        <section id="materials"></section>
+        <section id="about"><p>We source responsibly, sew locally, and release only what we love.</p></section>
+        <section id="testimonials"></section>
+    </main>
+    <footer id="footer"><p>Small-batch drops. Big-heart craft.</p></footer>
+</body>
+</html>
